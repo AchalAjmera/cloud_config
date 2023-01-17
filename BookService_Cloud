@@ -1,0 +1,8 @@
+server.port=8081
+spring.application.name=BookService_Cloud
+spring.jpa.hibernate.ddl-auto=update 
+spring.data.mongodb.host=localhost
+spring.data.mongodb.port=27017
+spring.data.mongodb.database=bookdb
+spring.data.mongodb.uri= mongodb://localhost/bookdb
+spring.autoconfigure.exclude=org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration
